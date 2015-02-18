@@ -1,0 +1,46 @@
+.header, .footer, aside, nav{
+	background-color: #B6F3C0; 
+}
+
+*{
+	font-size: 14px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header, footer{
+	text-align: center;
+}
+
+.header{
+	font-size: 46px
+	}
+
+.footer{
+	font-size: 10px
+	}
+
+.content{
+	font-size: 14px
+	}
+
+.navigation {
+	font-size: 12px
+	}
+
+.sidebar{
+	font-size: 10px
+	}
+
+*[class*="a"]{
+	background-color: blue;
+} 
+
+*:not([class$="r"]){
+	background-color: blue;
+}
+
+*[class$="r"]{
+	background-color: magenta;
+}
+
+
