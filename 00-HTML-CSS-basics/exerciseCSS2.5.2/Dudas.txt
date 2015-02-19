@@ -1,0 +1,7 @@
+*En Mozilla cuando deslizo el mouse sobre la imagen la descripción que tendría que aparecer 
+arriba de ésta (y que funciona bien en Chrome e IE) aparece corrida hacia la derecha y no pude arreglarlo
+*Me gustaría que las imágenes queden acomodadas como en el ejemplo, y a mi me queda un espacio en la últimas dos, 
+me doy cuenta que es por el float: left que acomoda las imágenes donde va quedando lugar pero no me doy cuenta que
+modificación tendría que hacer para que queden como en el ejemplo
+
+-No se si me pude explicar bien, sino lo vemos en la próxima reunión-
