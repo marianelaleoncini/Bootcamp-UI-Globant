@@ -1,0 +1,14 @@
+.content{
+	text-align: center;
+	visibility: hidden;
+}
+
+h1{
+	text-align: center;
+}
+
+.highlight{
+	color: #FF8040;
+	font-weight: bold;
+	font-size: 18px;
+}

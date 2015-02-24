@@ -1,0 +1,46 @@
+html{
+	color: #FFFFFF;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #9B9E8D;
+}
+body{
+
+}
+header{
+	background-color: #464646;
+	padding: 20px;
+}
+#search{
+	float: left;
+	width: 56%;
+	background-color: #9B9E8D;
+	height: 100%;
+	padding: 2%;
+}
+#info{
+	float: left;
+	width: 40%;
+	background-color: #717463;
+}
+article{
+	background-color: #9B9E8D;
+	border-radius: 5px;
+	margin: 0 8px 8px 8px;
+	padding: 2px;
+}
+article:first-child{
+	margin-top: 8px;
+}
+img{
+	height: 120px;
+	width: 120px;
+}
+label{
+	text-decoration: underline;
+}
+input, button{
+	color: #000000;
+}
+.error{
+	color: #E10F04;
+}
