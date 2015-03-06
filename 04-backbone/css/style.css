@@ -1,0 +1,7 @@
+.movieContainer img{
+	float: left;
+}
+
+.movieContainer ul {
+    list-style-type: none;
+}
