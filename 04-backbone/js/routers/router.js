@@ -1,36 +1,34 @@
-define('Router',[
+define([
   'jquery',
   'underscore',
   'backbone',
   'handlebars',
+  'models/movie',
   'views/movie'
-], function($, _, Backbone, Handlebars, MovieView){
+
+], function($, _, Backbone, Handlebars, MovieModel, MovieView){
+
   var Router = Backbone.Router.extend({
     routes: {
       // Define some URL routes
       '/movie': 'showMovie',
       
-      // Default
-      '*actions': 'defaultAction'
+    },
+  
+      initialize: function(){
+     
+      this.showMovie();
+
+      Backbone.history.start();
+    },
+
+    showMovie: function(){
+      var movieModel = new MovieModel();
+      var movieView = new MovieView({
+      model: movieModel
+      });  
     }
+
   });
-
-  var initialize = function(){
-    var router = new Router;
-
-    router.on('showMovie', function(){
-      var movieView = new Movie();
-      movieView.render();
-    });
-
-    router.on('defaultAction', function(actions){
-      // We have no matching route, lets just log what the URL was
-      console.log('No route:', actions);
-    });
-
-    Backbone.history.start();
-  };
-
   return Router;
-
 });

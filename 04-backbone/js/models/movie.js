@@ -16,12 +16,11 @@ define([
       actors: 'Unknown',
     },
 
-    url: '/movie'
+
 
   });
   
-  var unknown = new MovieModel();
-  unknown.save();
+  
   
   return MovieModel;
 });

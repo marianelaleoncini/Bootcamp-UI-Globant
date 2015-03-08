@@ -12,7 +12,12 @@ define([
     className: 'movieContainer',
     template: Handlebars.compile(movieTemplate),
 
+    initialize: function(){
+      this.render();
+    },
+
     render: function() {
+      
       this.$el.html(this.template(this.model.toJSON()));
       return this;
     },
