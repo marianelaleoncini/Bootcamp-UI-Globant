@@ -2,13 +2,18 @@ define([
   'underscore',
   'backbone',
   'handlebars',
+  'backboneLocalStorage',
   'models/movie'
-], function(_, Backbone, Handlebars, Movie){
+], function(_, Backbone, Handlebars, LocalStorage, Movie){
 
   var MovieList = Backbone.Collection.extend({
 
     model: Movie,
-    url: '/movieList'
+    localStorage: new LocalStorage('movies-backbone'),
+
+    initialize: function(){
+
+    }
 
   });
 

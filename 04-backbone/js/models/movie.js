@@ -13,14 +13,14 @@ define([
       genre: 'Unknown',
       description: 'Unknown',
       director: 'Unknown',
-      actors: 'Unknown',
+      actors: 'Unknown'
     },
 
-
+     initialize: function() {
+      
+    },
 
   });
-  
-  
   
   return MovieModel;
 });

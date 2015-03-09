@@ -4,6 +4,7 @@ require.config({
     jquery: 'lib/jquery-2.1.3',
     underscore: 'lib/underscore',
     backbone: 'lib/backbone',
+    backboneLocalStorage: 'lib/backbone.localStorage',
     handlebars: 'lib/handlebars-v3.0.0',
     text: 'lib/text'
   },
@@ -23,19 +24,18 @@ require.config({
     backbone: {
       deps: ['jquery', 'underscore'],
       exports: 'Backbone'
+    },
+
+    backboneLocalstorage: {
+      deps: ['backbone'],
+      exports: 'LocalStorage'
     }
   }  
 });
 
 require([
 'routers/router'], function(Router){
+  console.log("1 - main ok");
   new Router();
-  /*var router = new Router();
-  router.initialize();*/
 });
 
-/*require([
-'models/movie'], function(Movie){
-  var movie = new Movie();
-  movie.initialize();
-});*/

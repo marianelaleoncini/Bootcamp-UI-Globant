@@ -4,27 +4,29 @@ define([
   'backbone',
   'handlebars',
   'models/movie',
-  'views/movie'
+  'views/movieList',
+  'collections/movieList'
 
-], function($, _, Backbone, Handlebars, MovieModel, MovieView){
+], function($, _, Backbone, Handlebars, MovieModel, MovieListView, MovieListCollection){
 
   var Router = Backbone.Router.extend({
     routes: {
-      // Define some URL routes
-      '/movie': 'showMovie',
+
+      '/movieList': 'showMovieList',
       
     },
   
       initialize: function(){
-     
-      this.showMovie();
+      console.log('2 - entra initialize router');
+      this.showMovieList();
 
       Backbone.history.start();
     },
 
-    showMovie: function(){
+    showMovieList: function(){
+      console.log('3 - estoy en show movie');
       var movieModel = new MovieModel();
-      var movieView = new MovieView({
+      var movieListView = new MovieListView({
       model: movieModel
       });  
     }
