@@ -14,6 +14,7 @@ define([
 
       '/movieList': 'showMovieList',
       
+      
     },
   
       initialize: function(){
@@ -26,10 +27,14 @@ define([
     showMovieList: function(){
       console.log('3 - estoy en show movie');
       var movieModel = new MovieModel();
+      var movieListCollection = new MovieListCollection();
       var movieListView = new MovieListView({
-      model: movieModel
+      model: movieModel,
+      collection: movieListCollection
       });  
-    }
+    },
+
+    
 
   });
   return Router;

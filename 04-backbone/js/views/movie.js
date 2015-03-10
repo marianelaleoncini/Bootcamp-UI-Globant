@@ -8,19 +8,32 @@ define([
 
   var MovieView = Backbone.View.extend({
 
-    tagName: 'div',
-    className: 'movieContainer',
     template: Handlebars.compile(movieTemplate),
+    tagName:'div',
+    className: 'movieContainer',
 
     initialize: function(){
+      console.log(this.$el);
       this.render();
+      this.listenTo(this.model, 'destroy', this.remove);
+    },
+
+
+    events:{
+      'click .destroy': 'destroy',
+    },
+
+    destroy: function(){
+      console.log('entra a destroy');
+      this.model.destroy();
     },
 
     render: function() {
       console.log(this.model.toJSON());
-      $('section.movieList').append(this.template(this.model.toJSON()));
+      this.$el.html(this.template(this.model.toJSON()));
       return this;
     },
+
 
   });
  

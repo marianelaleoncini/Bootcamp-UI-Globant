@@ -1,13 +1,16 @@
-<!-- Esto va a estar dentro de <div class="movieContainer"> y antes de un <section class="movieList"> -->
-
-<img src="{{image}}">
-<ul>
-	<li><h3>{{name}} <span>{{year}}</span></h3></li>
-	<li>{{duration}} {{genre}}</li>
-	<li><label>Description:</label>{{description}}</li>
-	<li><label>Director:</label>{{director}}</li>
-	<li><label>Actors:</label>{{actors}}</li>
-</ul>
+<!-- Esto va a estar dentro de un <section class="movieList"> -->
+	<img src="{{image}}">
+	<ul>
+		<li><h3>{{name}} <span>{{year}}</span></h3></li>
+		<li>{{duration}} {{genre}}</li>
+		<li><label>Description:</label>{{description}}</li>
+		<li><label>Director:</label>{{director}}</li>
+		<li><label>Actors:</label>{{actors}}</li>
+		<li>
+			<button class='edit'>Edit</button>
+			<button class='destroy'>Remove</button>
+		</li>
+	</ul>
 
 
 
