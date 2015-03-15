@@ -19,11 +19,7 @@ define([
     initialize: function(){
       console.log('4 - estoy en initialize de movie list view');
       this.render();
-      this.listenTo(this.collection, 'add', this.render);
-
-
-/*      this.listenTo(this.model, 'change', this.render);
-      this.listenTo(this.model, 'destroy', this.remove);*/
+      this.listenTo(this.collection, 'add', this.render);s
     },
 
 
@@ -39,8 +35,9 @@ define([
     renderMovie: function(movie) {
       console.log('6 - render movie');
       var movieView = new MovieView({
-        model: movie
+        model: movie,
       });
+       this.$el.append(movieView.$el);
     },
 
     events:{
