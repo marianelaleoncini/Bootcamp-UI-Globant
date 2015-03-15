@@ -1,0 +1,131 @@
+[
+	{
+		"name": "Into the Wild",
+		"description": "After graduating from Emory University, top student and athlete Christopher McCandless abandons his possessions, gives his entire $24,000 savings account to charity and hitchhikes to Alaska to live in the wilderness. Along the way, Christopher encounters a series of characters that shape his life.",
+		"image": "http://ia.media-imdb.com/images/M/MV5BMTAwNDEyODU1MjheQTJeQWpwZ15BbWU2MDc3NDQwNw@@._V1_SY317_CR0,0,214,317_AL_.jpg",
+		"trailer": "https://www.youtube.com/embed/2LAuzT_x8Ek",
+		"imdb": "http://www.imdb.com/title/tt0758758/?ref_=wl_li_i",
+		"year": 2007,
+		"director": "Sean Penn",
+		"duration": "148 min",
+		"genre": "Adventure",
+		"actors": ["Emile Hirsch", "Vince Vaughn", "Catherine Keener"]
+    },
+
+    {
+	    "name": "A Beautiful Mind",
+	    "description": "After a brilliant but asocial mathematician accepts secret work in cryptography, his life takes a turn for the nightmarish.",
+	    "image": "http://ia.media-imdb.com/images/M/MV5BMTQ4MDI2MzkwMl5BMl5BanBnXkFtZTYwMjk0NTA5._V1_SX214_AL_.jpg",
+	    "trailer":"https://www.youtube.com/embed/aS_d0Ayjw4o",
+	    "imdb":"http://www.imdb.com/title/tt0268978/?ref_=rvi_tt",
+	    "year": 2001,
+	    "director": "Ron Howard",
+	    "duration": "135 min",
+	    "genre": "Drama",
+	    "actors": ["Russell Crowe", "Ed Harris", "Jennifer Connelly"]
+	},
+
+    {
+    	"name":"Forrest Gump",
+    	"description":"Forrest Gump, while not intelligent, has accidentally been present at many historic moments, but his true love, Jenny Curran, eludes him.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTQwMTA5MzI1MF5BMl5BanBnXkFtZTcwMzY5Mzg3OA@@._V1_SX214_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/uPIEn0M8su0",
+    	"imdb":"http://www.imdb.com/title/tt0109830/?ref_=tt_rec_tt",
+    	"year":1994,
+    	"director":"Robert Zemeckis",
+    	"duration":"142 min",
+    	"genre":"Drama",
+    	"actors":["Tom Hanks", "Robin Wright", "Gary Sinise"]
+    },
+
+    {
+    	"name":"Intouchables",
+    	"description":"After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTYxNDA3MDQwNl5BMl5BanBnXkFtZTcwNTU4Mzc1Nw@@._V1_SX214_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/34WIbmXkewU",
+    	"imdb":"http://www.imdb.com/title/tt1675434/?ref_=nv_sr_1",
+    	"year":2011,
+    	"director":"Olivier Nakache",
+    	"duration":"112 min",
+    	"genre":"Drama",
+    	"actors":["François Cluzet", "Omar Sy", "Anne Le Ny"]
+    },
+	
+	{
+    	"name":"Amelie",
+    	"description":"Amelie is an innocent and naive girl in Paris with her own sense of justice. She decides to help those around her and, along the way, discovers love.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTYzNjkxMTczOF5BMl5BanBnXkFtZTgwODg5NDc2MjE@._V1_SY317_CR0,0,214,317_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/B-uxeZaM-VM",
+    	"imdb":"http://www.imdb.com/title/tt0211915/?ref_=tt_rec_tt",
+    	"year":2001,
+    	"director":"Jean-Pierre Jeunet",
+    	"duration":"122 min",
+    	"genre":"Romance",
+    	"actors":["Audrey Tautou", "Mathieu Kassovitz", "Rufus"]
+    },
+	
+	{
+    	"name":"The Pianist",
+    	"description":"A Polish Jewish musician struggles to survive the destruction of the Warsaw ghetto of World War II.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTc4OTkyOTA3OF5BMl5BanBnXkFtZTYwMDIxNjk5._V1_SX214_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/u_jE7-6Uv7E",
+    	"imdb":"http://www.imdb.com/title/tt0253474/?ref_=tt_rec_tt",
+    	"year":2002,
+    	"director":"Roman Polanski",
+    	"duration":"150 min",
+    	"genre":"Drama",
+    	"actors":["Adrien Brody", "Thomas Kretschmann", "Frank Finlay"]
+    },
+	
+	{
+    	"name":"Seven Pounds",
+    	"description":"A man with a fateful secret embarks on an extraordinary journey of redemption by forever changing the lives of seven strangers.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTU0NzY0MTY5OF5BMl5BanBnXkFtZTcwODY3MDEwMg@@._V1_SY317_CR12,0,214,317_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/7kpK1fKzoDs",
+    	"imdb":"http://www.imdb.com/title/tt0814314/?ref_=nv_sr_3",
+    	"year":2008,
+    	"director":"Gabriele Muccino",
+    	"duration":"123 min",
+    	"genre":"Drama",
+    	"actors":["Will Smith", "Rosario Dawson", "Woody Harrelson"]
+    },
+	
+	{
+    	"name":"The Pursuit of Happyness",
+    	"description":"A struggling salesman takes custody of his son as he's poised to begin a life-changing professional endeavor.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTQ5NjQ0NDI3NF5BMl5BanBnXkFtZTcwNDI0MjEzMw@@._V1_SX214_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/89Kq8SDyvfg",
+    	"imdb":"http://www.imdb.com/title/tt0454921/?ref_=tt_rec_tt",
+    	"year":2006,
+    	"director":"Gabriele Muccino",
+    	"duration":"117 min",
+    	"genre":"Drama",
+    	"actors":["Will Smith", "Thandie Newton", "Jaden Smith"]
+    },
+	
+	{
+    	"name":"Captain Phillips",
+    	"description":"The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the US-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTQzNzExMDg3Ml5BMl5BanBnXkFtZTgwODU1NzEzMDE@._V1_SX214_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/_3ASoBrFGlc",
+    	"imdb":"http://www.imdb.com/title/tt1535109/?ref_=tt_rec_tt",
+    	"year":2013,
+    	"director":"Paul Greengrass",
+    	"duration":"134 min",
+    	"genre":"Drama",
+    	"actors":["Tom Hanks", "Barkhad Abdi", "Barkhad Abdirahman"]
+    },
+	
+	{
+    	"name":"Dallas Buyers Club",
+    	"description":"In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need after he is himself diagnosed with the disease.",
+    	"image":"http://ia.media-imdb.com/images/M/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_SX214_AL_.jpg",
+    	"trailer":"https://www.youtube.com/embed/fvMPU0WaPcc",
+    	"imdb":"http://www.imdb.com/title/tt0790636/?ref_=tt_rec_tt",
+    	"year":2013,
+    	"director":"Jean-Marc Vallée",
+    	"duration":"117 min",
+    	"genre":"Drama",
+    	"actors":["Matthew McConaughey", "Jennifer Garner", "Jared Leto"]
+    }	
+]

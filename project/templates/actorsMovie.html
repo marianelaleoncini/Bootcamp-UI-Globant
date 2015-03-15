@@ -1,0 +1,10 @@
+<p ng-init='showActors = false'>
+    <button class='round medium' ng-click="showActors = true" ng-hide="showActors === true">Show Actors</button>
+    <button class='round' ng-click="showActors = false" ng-show="showActors === true">Hide Actors</button>
+    <ul ng-show="showActors === true" ng-hide="showActors === false">
+    	<span class='special'>Actors:</span>
+		<li class='actor' ng-repeat="actor in movie.actors">
+			<i class="fa fa-caret-right"></i> {{actor}}
+		</li>
+	</ul>
+</p>

@@ -1,0 +1,12 @@
+<p ng-init="showTrailer = false">
+	<span class='special'>Trailer</span>
+	<a href="" ng-click="showTrailer = true">
+		<i ng-hide="showTrailer === true" class="fa fa-chevron-circle-down"></i>
+	</a>
+	<a href="" ng-click="showTrailer = false">
+		<i ng-show="showTrailer === true" class="fa fa-chevron-circle-up"></i>
+	</a>
+</p>
+<div ng-show="showTrailer === true" ng-hide="showTrailer === false" class="flex-video">
+	<iframe width="420" height="315" ng-src="{{movie.trailer | trustUrl}}" frameborder="0" allowfullscreen></iframe>
+</div>

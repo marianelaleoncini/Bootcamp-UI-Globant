@@ -1,0 +1,31 @@
+<section id='movieList'>
+	<div class="row search">
+  		<div class="large-6 columns">
+  			<label for="search">Search:
+  				<input id="search" type="text" ng-model="query">
+  			</label>
+  		</div>
+  		<div class="large-6 columns">
+  			<label for="sortBy">Sort by:
+		        <select id="sortBy" ng-model="sortBy">
+			        <option value="name">Name</option>
+			        <option value="genre">Genre</option>
+			        <option value="year">Year</option>
+		        </select>
+     		</label>
+  		</div>
+	</div>
+	
+ 	
+  <div id='panelList' class="panel radius clearfix" ng-repeat="movie in movies | filter:query | orderBy:sortBy">
+   	<div class="row movieList">
+			<div class="medium-5 large-5 columns">
+    		<img id='imgList'class="left" ng-src="{{movie.image}}" alt="Movie image">
+			</div>
+			<div class="medium-7 large-7 columns">
+		    <h3><a href="#/{{movie.name}}">{{movie.name}}</a></h3>
+		    <h5>Genre: {{movie.genre}}</h5>	
+			</div>
+	  </div>
+  </div>
+</section>

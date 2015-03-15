@@ -1,0 +1,28 @@
+<div class="panel details clearfix">
+   	<div class="row movieDetails">
+			<div class="large-4 columns">
+    			<img id='imgDetails' class="left" ng-src="{{movie.image}}" alt="Movie image">
+			</div>
+			<div class="large-8 columns">
+			    <h3>{{movie.name}} <span class='year'>({{movie.year}})</span></h3>
+
+			    <p><span class='special'>Description:</span> {{movie.description}}</p>
+
+				<p><span class='special'>Director:</span> {{movie.director}}</p>
+
+			    <p><span class='special'>Duration:</span> {{movie.duration}}</p>
+
+			    <p><span class='special'>Genre:</span> {{movie.genre}}</p>
+
+			    <p><span class='special'>
+			    	<a href="{{movie.imdb}}" target="_blank">See in IMDB</a>
+			    </span></p>
+
+			    <actors-movie></actors-movie>
+
+			    <trailer-movie></trailer-movie>
+			    
+			</div>
+	</div>
+</div>
+
