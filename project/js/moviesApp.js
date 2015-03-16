@@ -1,5 +1,5 @@
 (function(){
-	var moviesApp = angular.module('moviesApp', ['ngRoute','moviesControllers', 'moviesDirectives', 'moviesFactories']);
+	var moviesApp = angular.module('moviesApp', ['ngRoute','moviesControllers', 'moviesDirectives', 'moviesFactories', 'moviesFilters']);
 
 	moviesApp.config(['$routeProvider', function($routeProvider) {
 	    $routeProvider.
