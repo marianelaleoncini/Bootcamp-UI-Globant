@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='moviesApp'>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Movies</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/foundation.min.css">
+	<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<header>
+		<h1>Movies <i class="fa fa-film"></i></h1>
+	</header>
+	
+	<div ng-view></div>
+
+	<!-- Scripts -->
+	<script type="text/javascript" src="js/libs/angular.min.js"></script>
+	<script type="text/javascript" src="js/libs/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/libs/angular-local-storage.js"></script>	
+	<script type="text/javascript" src="js/moviesApp.js"></script>
+	<!-- <script type="text/javascript" src="js/controllers.js"></script>
+	<script type="text/javascript" src="js/directives.js"></script>
+	<script type="text/javascript" src="js/factories.js"></script>
+	<script type="text/javascript" src="js/filters.js"></script>-->
+
+</body>
+</html>
