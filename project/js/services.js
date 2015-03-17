@@ -1,5 +1,5 @@
 (function(){
-	angular.module('moviesFactories', [])
+	angular.module('moviesServices', [])
 	.factory('movies', function($http){
         return {
 
